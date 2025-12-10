@@ -11,6 +11,12 @@ body {
     background-color: whitesmoke;
 }
 
+.heros {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
 img {
     max-width: 100%;
     height: auto;

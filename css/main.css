@@ -2,21 +2,38 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 1.4;
-    color: darkblue;
-    background-color: whitesmoke;
-}
-
 .imageHeader {
     height: auto;
     width: 300px;
 }
 
 a {
-    color: deeppink;
+    color: #e2570b;
     text-decoration: none;
+}
+
+/* Thème jour */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+/* Thème sombre */
+body.dark {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Bouton interrupteur */
+#themeToggle {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
 }

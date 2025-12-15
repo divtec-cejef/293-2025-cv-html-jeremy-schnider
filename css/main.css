@@ -11,23 +11,12 @@ body {
     background-color: whitesmoke;
 }
 
-.heros {
-    max-width: 100%;
+.imageHeader {
     height: auto;
-    width: auto;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    width: auto;
+    width: 300px;
 }
 
 a {
     color: deeppink;
     text-decoration: none;
-}
-
-a:hover {
-    color: darkmagenta;
 }

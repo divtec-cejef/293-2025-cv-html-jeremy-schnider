@@ -7,10 +7,38 @@
     width: 300px;
 }
 
+.titrePrincipal {
+    text-align: center;
+    color: #e2570b;
+    padding: 20px 10px 10px 15px;
+    border: #804b0c 12px solid;
+}
+
 a {
     color: #e2570b;
     text-decoration: none;
 }
+
+body {
+    background: #ff0000;
+}
+
+.boutonLumiere {
+    text-align: center;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Thème jour */
 body {
@@ -38,6 +66,3 @@ body.dark {
     border: none;
 }
 
-ima {
-    position: relative;
-}

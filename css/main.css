@@ -5,6 +5,7 @@
 .imageHeader {
     height: auto;
     width: 300px;
+    margin: 50px;
 }
 
 .titrePrincipal {
@@ -27,6 +28,30 @@ body {
     text-align: center;
     margin: 10px;
 }
+
+.ampouleHeader {
+    height: auto;
+    width: 30px;
+    float: right;
+    margin: 10px;
+}
+
+body {
+    margin: 30px;
+}
+
+header {
+    background: #b70ee2;
+}
+
+main {
+    background: #ff0000;
+}
+
+
+
+
+
 
 
 

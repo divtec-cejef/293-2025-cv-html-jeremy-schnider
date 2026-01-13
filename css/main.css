@@ -5,14 +5,13 @@
 .imageHeader {
     height: auto;
     width: 300px;
-    margin: 50px;
+    margin: 50px
 }
 
 .titrePrincipal {
     text-align: center;
     color: #e2570b;
-    padding: 20px 10px 10px 15px;
-    border: #804b0c 12px solid;
+    font: bold 100px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -22,13 +21,15 @@ a {
 
 body {
     background: #ff0000;
+    margin: 30px;
+    padding: 50px;
+
 }
 
 .boutonLumiere {
     text-align: center;
     margin: 10px;
 }
-
 .ampouleHeader {
     height: auto;
     width: 30px;
@@ -36,31 +37,45 @@ body {
     margin: 10px;
 }
 
-body {
-    margin: 30px;
-}
-
-header {
-    background: #b70ee2;
-}
-
 main {
-    background: #ff0000;
+    margin: 150px;
+    padding: 30px;
+    background-color: #9c9292;
+    }
+
+
+.menu {
+    margin: 0;
+    padding-left: 20px;
 }
 
 
+.container {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        justify-content: center;
+}
 
 
+h2, h3 {
+    color: #875f51;
+}
 
 
+.papa {
+    background-image: url('../img/arthur2.gif');
+    background-repeat: repeat;
+    background-position: top left;
+    min-height: 100vh;
+    margin: 0;
+}
 
+.bibi {
+    background-color: #9c9292;
+    padding: 30px;
 
-
-
-
-
-
-
+}
 
 
 
